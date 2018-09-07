@@ -8,7 +8,7 @@ public class Salesman {
 		//start timing
 		long startTime = System.nanoTime();
 		//try many initial conditions
-		for (int count = 1; count <= 20; count++) {
+		for (int count = 1; count <= 100; count++) {
 			Map m = new Map(numCities,100.0);
 			City[] dummy = new City[numCities];
 			City[] caInitial = m.toArray(dummy);
